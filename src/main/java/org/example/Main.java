@@ -41,6 +41,7 @@ public class Main {
               students.remove(student);
               remove = true;
               System.out.println(nameRemove + "を削除しました");
+              break;
             }
           }
           if (!remove) {
